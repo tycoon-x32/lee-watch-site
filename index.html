@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lee Designer Watch</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@400;700&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Unbounded', sans-serif;
+      background-color: #0a0a0a;
+      color: #ffffff;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 2rem;
+      background-color: rgba(255, 255, 255, 0.02);
+      border-bottom: 1px solid #222;
+    }
+
+    .logo {
+      font-size: 1.8rem;
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+
+    nav a {
+      color: #fff;
+      margin-left: 2rem;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #d4af37;
+    }
+
+    .hero {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 2rem;
+      background: linear-gradient(145deg, #0f0f0f, #1c1c1c);
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      max-width: 700px;
+      margin-bottom: 1rem;
+      line-height: 1.2;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      color: #ccc;
+      margin-bottom: 2rem;
+    }
+
+    .cta-button {
+      padding: 0.8rem 2rem;
+      font-size: 1rem;
+      font-weight: bold;
+      color: #0a0a0a;
+      background-color: #d4af37;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: transform 0.3s ease;
+    }
+
+    .cta-button:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background-color: #111;
+      color: #666;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">LEE WATCH</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Shop</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Timeless Elegance, Designed by Lee</h1>
+    <p>Discover the essence of precision and luxury in every timepiece. Where legacy meets modern craftsmanship.</p>
+    <button class="cta-button">Explore Collection</button>
+  </section>
+<section style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; padding: 4rem 2rem; background-color: #0f0f0f;">
+  <div style="flex: 1 1 300px; text-align: center; padding: 1rem;">
+    <img src="https://via.placeholder.com/400x400?text=LEE+WATCH" alt="Lee Watch" style="max-width: 100%; border-radius: 20px; box-shadow: 0 0 20px rgba(212,175,55,0.3);" />
+  </div>
+  <div style="flex: 1 1 300px; color: #fff; padding: 2rem;">
+    <h2 style="font-size: 2rem; margin-bottom: 1rem;">Monarch Tourbillon Series</h2>
+    <p style="font-size: 1.1rem; color: #ccc; margin-bottom: 1rem;">
+      The pinnacle of craftsmanship and elegance. Inspired by legacy, built for the future.
+    </p>
+    <p style="font-size: 1.5rem; font-weight: bold; color: #d4af37;">$2,499.00</p>
+    <button style="margin-top: 1.5rem; padding: 0.8rem 2rem; font-size: 1rem; background-color: #d4af37; color: #0a0a0a; border: none; border-radius: 8px; cursor: pointer;">Buy Now</button>
+  </div>
+</section>
+<section style="padding: 4rem 2rem; background-color: #0a0a0a;">
+  <h2 style="text-align: center; font-size: 2rem; color: #fff; margin-bottom: 2rem;">Our Collections</h2>
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; max-width: 1200px; margin: auto;">
+    
+    <div style="background-color: #111; border-radius: 16px; padding: 1.5rem; text-align: center; box-shadow: 0 0 12px rgba(0,0,0,0.3);">
+      <img src="https://via.placeholder.com/300x300?text=Monarch+Black" alt="Watch 1" style="width: 100%; border-radius: 12px; margin-bottom: 1rem;">
+      <h3 style="color: #fff;">Monarch Black</h3>
+      <p style="color: #ccc; font-size: 0.95rem;">Sleek, all-black design with gold accents.</p>
+      <p style="color: #d4af37; font-weight: bold; margin: 0.5rem 0;">$2,299</p>
+      <button style="padding: 0.6rem 1.5rem; background-color: #d4af37; color: #0a0a0a; border: none; border-radius: 8px; cursor: pointer;">Buy Now</button>
+    </div>
+    <section style="padding: 4rem 2rem; background-color: #0a0a0a;">
+  <h2 style="text-align: center; font-size: 2rem; color: #fff; margin-bottom: 2rem;">Our Collections</h2>
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; max-width: 1200px; margin: auto;">
+
+    <!-- Monarch Tourbillon -->
+    <div style="background-color: #111; border-radius: 16px; padding: 1.5rem; text-align: center; box-shadow: 0 0 12px rgba(0,0,0,0.3);">
+      <img src="https://via.placeholder.com/300x300?text=Monarch+Tourbillon" alt="Monarch Tourbillon" style="width: 100%; border-radius: 12px; margin-bottom: 1rem;">
+      <h3 style="color: #fff;">Monarch Tourbillon</h3>
+      <p style="color: #ccc; font-size: 0.95rem;">Exclusive high-precision tourbillon movement.</p>
+      <p style="color: #d4af37; font-weight: bold; margin: 0.5rem 0;">$2,799</p>
+      <a href="mailto:leemessi63@gmail.com?subject=Inquiry%20about%20Monarch%20Tourbillon%20Watch" 
+         style="display: inline-block; padding: 0.7rem 1.5rem; background-color: #ffc439; color: #000; font-weight: bold; border-radius: 6px; text-decoration: none;">
+        Contact to Purchase
+      </a>
+    </div>
+
+    <!-- Monarch Gold Titanium -->
+    <div style="background-color: #111; border-radius: 16px; padding: 1.5rem; text-align: center; box-shadow: 0 0 12px rgba(0,0,0,0.3);">
+      <img src="https://via.placeholder.com/300x300?text=Monarch+Gold+Titanium" alt="Monarch Gold Titanium" style="width: 100%; border-radius: 12px; margin-bottom: 1rem;">
+      <h3 style="color: #fff;">Monarch Gold Titanium</h3>
+      <p style="color: #ccc; font-size: 0.95rem;">Luxury gold finish with titanium durability.</p>
+      <p style="color: #d4af37; font-weight: bold; margin: 0.5rem 0;">$3,199</p>
+      <a href="mailto:leemessi63@gmail.com?subject=Inquiry%20about%20Monarch%20Gold%20Titanium%20Watch" 
+         style="display: inline-block; padding: 0.7rem 1.5rem; background-color: #ffc439; color: #000; font-weight: bold; border-radius: 6px; text-decoration: none;">
+        Contact to Purchase
+      </a>
+    </div>
+
+    <!-- Chrono Steel -->
+    <div style="background-color: #111; border-radius: 16px; padding: 1.5rem; text-align: center; box-shadow: 0 0 12px rgba(0,0,0,0.3);">
+      <img src="https://via.placeholder.com/300x300?text=Chrono+Steel" alt="Chrono Steel" style="width: 100%; border-radius: 12px; margin-bottom: 1rem;">
+      <h3 style="color: #fff;">Chrono Steel</h3>
+      <p style="color: #ccc; font-size: 0.95rem;">Classic steel with futuristic chronograph face.</p>
+      <p style="color: #d4af37; font-weight: bold; margin: 0.5rem 0;">$1,999</p>
+      <a href="mailto:leemessi63@gmail.com?subject=Inquiry%20about%20Chrono%20Steel%20Watch" 
+         style="display: inline-block; padding: 0.7rem 1.5rem; background-color: #ffc439; color: #000; font-weight: bold; border-radius: 6px; text-decoration: none;">
+        Contact to Purchase
+      </a>
+    </div>
+
+  </div>
+</section>
